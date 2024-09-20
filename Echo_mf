@@ -1,0 +1,11 @@
+CC=gcc
+CFLAGS=-Wall
+TARGET=echo_server
+
+all: $(TARGET)
+
+$(TARGET): Echo.c Echo.h
+	$(CC) $(CFLAGS) -o $(TARGET) Echo.c
+
+clean:
+	rm -f $(TARGET)
