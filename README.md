@@ -13,7 +13,3 @@ To compile the server, use the provided Makefile. Run the following command in t
 
 ```bash
 make -f Echo_mf
-
-## How to Run
-To start the server, execute: ./echo_server
-The server will listen on port 8080 and accept multiple client connections.

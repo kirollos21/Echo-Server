@@ -19,4 +19,4 @@ void initialize_client_sockets(int client_sockets[]);
 void start_server();
 void handle_client_connections(int server_socket);
 
-#endif // ECHO_H
+#endif
